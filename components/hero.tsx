@@ -51,8 +51,7 @@ const Hero = () => {
           maxWidth: 560,
         }}
       >
-        Dashboard, cards, authentication. Some examples built using the
-        components. Use this as a guide to build your own.
+        Craft winning proposals effortlessly with our AI-powered solution.
       </span>
       <div className="flex w-full items-center justify-center space-x-4 py-4 md:pb-10">
         <Link

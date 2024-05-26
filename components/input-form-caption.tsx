@@ -68,17 +68,12 @@ export function InputFormCaption() {
           <Button type="submit">Submit</Button>
         </form>
       </Form>
-      <div className="mt-4 w-1/2">
-        {
-          messages && <div className="my-4 font-semibold text-2xl">Output:</div>
-        }
-        <div>
-          {messages.map((message) => (
-            <div className="px-4 py-3 m-2 rounded-md bg-muted">
-              {message.content}
-            </div>
-          ))}
-        </div>
+      <div className="flex flex-col gap-4 mt-4">
+        {messages && messages?.map((message) => (
+          <div className="px-4 py-3 rounded-md bg-accent">
+            {message.content}
+          </div>
+        ))}
       </div>
     </>
   );

@@ -70,7 +70,7 @@ export function InputFormCaption() {
       </Form>
       <div className="mt-4 w-1/2">
         {
-          messages && <div className="mb-2 font-semibold text-2xl">Output:</div>
+          messages && <div className="my-4 font-semibold text-2xl">Output:</div>
         }
         <div>
           {messages.map((message) => (
